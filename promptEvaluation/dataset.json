@@ -1,14 +1,17 @@
 [
   {
-    "task": "Parse an AWS S3 bucket URI and extract the bucket name and object key",
-    "format": "python"
+    "task": "Parse an AWS CloudWatch log entry and extract the timestamp, log level, and message using a regular expression",
+    "format": "regex",
+    "solution_criteria": "The regex must correctly capture three groups: ISO 8601 timestamp, log level (ERROR, WARN, INFO, DEBUG), and the remaining message text from typical CloudWatch log formats"
   },
   {
-    "task": "Validate that a string matches the AWS IAM role ARN format (arn:aws:iam::account-id:role/role-name)",
-    "format": "regex"
+    "task": "Write a Python function that takes an AWS S3 bucket name and returns a valid S3 URI in the format 's3://bucket-name'",
+    "format": "python",
+    "solution_criteria": "Function should validate the bucket name follows AWS naming rules (lowercase, hyphens allowed, no underscores), and return properly formatted S3 URI or raise an exception for invalid names"
   },
   {
-    "task": "Create a JSON policy document that allows EC2 instances to read objects from a specific S3 bucket",
-    "format": "json"
+    "task": "Create a JSON configuration object for an AWS Lambda environment that includes VPC settings, timeout, memory allocation, and environment variables for a database connection",
+    "format": "json",
+    "solution_criteria": "JSON must include valid Lambda configuration keys (Timeout, MemorySize, VpcConfig with SubnetIds and SecurityGroupIds), and Environment variables object with placeholder database credentials"
   }
 ]
