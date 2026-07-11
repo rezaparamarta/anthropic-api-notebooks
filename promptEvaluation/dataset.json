@@ -1,11 +1,14 @@
 [
   {
-    "task": "Write a Python function that takes an AWS S3 bucket name and returns True if it follows AWS naming conventions (lowercase, 3-63 characters, no consecutive dots), False otherwise."
+    "task": "Parse an AWS S3 bucket URI and extract the bucket name and object key",
+    "format": "python"
   },
   {
-    "task": "Create a JSON object that represents an AWS IAM policy allowing read-only access to a specific S3 bucket named 'my-data-bucket'."
+    "task": "Validate that a string matches the AWS IAM role ARN format (arn:aws:iam::account-id:role/role-name)",
+    "format": "regex"
   },
   {
-    "task": "Write a regex pattern that matches valid AWS EC2 instance IDs (format: i- followed by exactly 17 hexadecimal characters)."
+    "task": "Create a JSON policy document that allows EC2 instances to read objects from a specific S3 bucket",
+    "format": "json"
   }
 ]
