@@ -1,50 +1,50 @@
 [
   {
     "prompt_inputs": {
-      "height": "180 cm",
-      "weight": "72 kg",
-      "goal": "Marathon preparation with carbohydrate loading and high caloric intake (3500-4000 kcal/day) targeting 60% carbs, 20% protein, 20% fat",
-      "restrictions": "Vegetarian, no nuts"
+      "height": "178 cm",
+      "weight": "70 kg",
+      "goal": "Marathon training - maximize carbohydrate loading and sustained energy for long-distance running",
+      "restrictions": "None"
     },
     "solution_criteria": [
-      "Meal plan covers 3 meals and 2-3 snacks across one full day",
-      "Total daily calories fall within 3500-4000 kcal range",
-      "Macronutrient distribution aligns with stated targets (carbs 55-65%, protein 18-22%, fat 18-22%)",
-      "All meals and snacks respect vegetarian and no-nuts restrictions"
+      "Meal plan contains 4-5 meals/snacks distributed throughout the day",
+      "Total daily calories align with marathon training needs (approximately 3000-3500 kcal)",
+      "Carbohydrates comprise 60-65% of total calories with emphasis on complex carbs",
+      "Includes protein for muscle recovery and hydration/electrolyte considerations"
     ],
     "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
-    "scenario": "Testing with a high-performance endurance athlete (marathon runner) requiring high caloric intake and carbohydrate loading with specific macro targets"
+    "scenario": "Testing with a high-endurance athlete (marathon runner) requiring maximum caloric intake and carbohydrate loading, emphasizing sustained energy and recovery nutrition"
   },
   {
     "prompt_inputs": {
       "height": "180 cm",
       "weight": "85 kg",
-      "goal": "Maximize strength and muscle recovery for powerlifting training",
+      "goal": "Maximize muscle recovery and strength gains with high protein intake for weightlifting training",
       "restrictions": "None"
     },
     "solution_criteria": [
-      "Meal plan covers exactly 1 day with 4-5 meals",
-      "Includes high protein intake (minimum 1.6g per kg bodyweight) distributed across meals",
-      "Pre- and post-workout meals timed appropriately around training session",
-      "Plan is concise and practical (under 400 tokens)"
+      "Meal plan spans exactly 1 day with 4-5 meals",
+      "Daily protein intake meets or exceeds 2.0g per kg of body weight (170g minimum)",
+      "Includes pre-workout meal (1-2 hours before) and post-workout meal (within 1 hour after)",
+      "Compact format with practical, realistic foods and portion sizes"
     ],
     "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
-    "scenario": "Testing with a strength/power athlete (weightlifter) emphasizing protein intake and recovery nutrition with meal timing around training sessions"
+    "scenario": "Testing with a strength/power athlete (weightlifter) with specific macro requirements (high protein), including pre/post-workout meal timing and muscle recovery priorities"
   },
   {
     "prompt_inputs": {
-      "height": "175 cm",
-      "weight": "70 kg",
-      "goal": "Endurance training with limited budget",
-      "restrictions": "Vegetarian, no dairy"
+      "height": "178 cm",
+      "weight": "72 kg",
+      "goal": "High-performance fuel for soccer match and recovery",
+      "restrictions": "Vegan (no animal products)"
     },
     "solution_criteria": [
-      "Meal plan covers 3 meals using affordable, locally-available foods in developing regions",
-      "Provides adequate calories and protein to support endurance athletic performance",
-      "Respects vegetarian and dairy-free dietary restrictions",
-      "Compact and concise format suitable for 1-day reference"
+      "Meal plan covers breakfast, lunch, dinner, and snacks for one full day",
+      "All meals and snacks are vegan-compliant with no animal products",
+      "Provides adequate protein and carbohydrates to support soccer performance and recovery",
+      "Plan is compact and concise (minimal elaboration beyond meal descriptions)"
     ],
     "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
-    "scenario": "Testing with a resource-constrained scenario (budget-conscious athlete in developing region) using affordable, locally-available foods while meeting basic athletic nutritional needs"
+    "scenario": "Testing with a sport-specific dietary constraint (vegan soccer player) that requires the meal plan to accommodate ethical restrictions while meeting athletic performance and energy demands"
   }
 ]
