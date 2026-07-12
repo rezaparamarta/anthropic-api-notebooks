@@ -2,17 +2,49 @@
   {
     "prompt_inputs": {
       "height": "180 cm",
-      "weight": "75 kg",
-      "goal": "Marathon training with 3000+ calorie intake at 60% carbs, 20% protein, 20% fat macro ratio",
+      "weight": "72 kg",
+      "goal": "Marathon preparation with carbohydrate loading and high caloric intake (3500-4000 kcal/day) targeting 60% carbs, 20% protein, 20% fat",
+      "restrictions": "Vegetarian, no nuts"
+    },
+    "solution_criteria": [
+      "Meal plan covers 3 meals and 2-3 snacks across one full day",
+      "Total daily calories fall within 3500-4000 kcal range",
+      "Macronutrient distribution aligns with stated targets (carbs 55-65%, protein 18-22%, fat 18-22%)",
+      "All meals and snacks respect vegetarian and no-nuts restrictions"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a high-performance endurance athlete (marathon runner) requiring high caloric intake and carbohydrate loading with specific macro targets"
+  },
+  {
+    "prompt_inputs": {
+      "height": "180 cm",
+      "weight": "85 kg",
+      "goal": "Maximize strength and muscle recovery for powerlifting training",
       "restrictions": "None"
     },
     "solution_criteria": [
-      "Meal plan provides approximately 3000+ calories total",
-      "Macronutrient distribution matches 60% carbs, 20% protein, 20% fat",
-      "Includes meals/snacks strategically timed around training sessions",
-      "Plan is compact and presented for a single day"
+      "Meal plan covers exactly 1 day with 4-5 meals",
+      "Includes high protein intake (minimum 1.6g per kg bodyweight) distributed across meals",
+      "Pre- and post-workout meals timed appropriately around training session",
+      "Plan is concise and practical (under 400 tokens)"
     ],
     "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
-    "scenario": "Testing with a high-endurance athlete (marathon runner) requiring 3000+ calories with specific macro ratios (60% carbs, 20% protein, 20% fat) and timing around training sessions"
+    "scenario": "Testing with a strength/power athlete (weightlifter) emphasizing protein intake and recovery nutrition with meal timing around training sessions"
+  },
+  {
+    "prompt_inputs": {
+      "height": "175 cm",
+      "weight": "70 kg",
+      "goal": "Endurance training with limited budget",
+      "restrictions": "Vegetarian, no dairy"
+    },
+    "solution_criteria": [
+      "Meal plan covers 3 meals using affordable, locally-available foods in developing regions",
+      "Provides adequate calories and protein to support endurance athletic performance",
+      "Respects vegetarian and dairy-free dietary restrictions",
+      "Compact and concise format suitable for 1-day reference"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a resource-constrained scenario (budget-conscious athlete in developing region) using affordable, locally-available foods while meeting basic athletic nutritional needs"
   }
 ]

@@ -1,23 +1,65 @@
 [
   {
-    "output": "# One-Day Meal Plan for Marathon Training (Vegetarian)\n\nHere is a one-day meal plan for a vegetarian athlete in marathon training with carb-loading for endurance performance:\n\n* **Calorie Target:** Approximately 3,200 calories\n* **Macronutrient Breakdown:** Protein (110g), Fat (85g), Carbs (420g)\n\n## Meal Plan:\n\n* **Breakfast (7:00 AM):** Oatmeal (100g dry weight) with banana (120g), berries (80g), ground flaxseed (15g), and almond milk (240g).\n    * Protein: 12g, Fat: 8g, Carbs: 85g\n\n* **Mid-Morning Snack (10:00 AM):** Whole wheat toast (60g) with peanut butter (25g) and honey (20g).\n    * Protein: 10g, Fat: 10g, Carbs: 50g\n\n* **Lunch (1:00 PM):** Chickpea and vegetable curry with chickpeas (150g cooked), mixed vegetables (bell peppers 50g, spinach 50g, carrots 40g), coconut milk (100g), basmati rice (80g cooked).\n    * Protein: 15g, Fat: 12g, Carbs: 95g\n\n* **Afternoon Snack (3:30 PM):** Energy bar (homemade or store-bought, 65g) with sports drink (500ml, containing electrolytes).\n    * Protein: 8g, Fat: 6g, Carbs: 65g\n\n* **Pre-Dinner Snack (5:30 PM):** Rice cakes (40g) with almond butter (15g) and sliced apple (100g).\n    * Protein: 6g, Fat: 9g, Carbs: 45g\n\n* **Dinner (7:00 PM):** Lentil and vegetable pasta with whole wheat pasta (90g dry weight), red lentils (80g cooked), tomato sauce (150g), zucchini (80g), and olive oil (10g). Side salad with mixed greens (100g) and balsamic vinaigrette (15g).\n    * Protein: 32g, Fat: 18g, Carbs: 110g\n\n* **Evening Snack (9:00 PM):** Greek yogurt (150g) with granola (40g) and berries (50g).\n    * Protein: 17g, Fat: 8g, Carbs: 45g\n\n* **Hydration:** Water throughout the day (minimum 3-4 liters) plus electrolyte drinks during/after training sessions.\n\nThis meal plan emphasizes high-carbohydrate intake to maximize glycogen storage, includes adequate plant-based protein from legumes and dairy, and provides sustained energy for marathon training endurance.",
+    "output": "# Marathon Preparation Meal Plan (3500-4000 kcal/day)\n\n## Daily Macro Targets\n- **Carbs:** 525-600g (60%)\n- **Protein:** 175-200g (20%)\n- **Fat:** 78-89g (20%)\n\n## Sample Daily Eating Plan\n\n### Breakfast (800 kcal)\n- 2 cups oatmeal with banana and berries\n- 2 slices whole wheat toast with jam\n- 1 cup low-fat yogurt\n- 1 tbsp honey\n\n### Mid-Morning Snack (400 kcal)\n- 2 large bagels with peanut butter alternative (tahini) or hummus\n- 1 orange\n- 1 cup sports drink\n\n### Lunch (900 kcal)\n- 2 cups pasta with marinara sauce\n- 1 cup chickpeas or lentils\n- Side salad with olive oil dressing\n- 2 slices bread\n- 1 apple\n\n### Afternoon Snack (500 kcal)\n- Rice cakes with jam\n- 1 cup dried fruit mix\n- 1 sports drink or electrolyte beverage\n- Whole grain crackers with hummus\n\n### Dinner (800 kcal)\n- 1.5 cups quinoa or brown rice\n- 1 cup tofu stir-fry with vegetables\n- 1 cup sweet potato\n- 1 tbsp olive oil for cooking\n\n### Evening Snack (300-400 kcal)\n- Smoothie: banana, berries, rice milk, plant-based protein powder\n- Toast with jam\n\n## Key Carb Sources\nRice, pasta, oats, bread, potatoes, chickpeas, lentils, barley, quinoa, dried fruit\n\n## Protein Sources (No Nuts)\nTofu, tempeh, lentils, chickpeas, other legumes, dairy (if allowed), plant-based protein powder\n\n**Tip:** Time carbs around training for optimal performance!",
     "test_case": {
       "prompt_inputs": {
-        "height": "178 cm",
-        "weight": "68 kg",
-        "goal": "Marathon training with carb-loading for endurance performance",
-        "restrictions": "Vegetarian"
+        "height": "180 cm",
+        "weight": "72 kg",
+        "goal": "Marathon preparation with carbohydrate loading and high caloric intake (3500-4000 kcal/day) targeting 60% carbs, 20% protein, 20% fat",
+        "restrictions": "Vegetarian, no nuts"
       },
       "solution_criteria": [
-        "Meal plan covers all meals for one full day and totals 3,000-3,500 calories appropriate for marathon training",
-        "Macronutrient ratio emphasizes carbohydrates (55-65%) to support endurance performance and glycogen loading",
-        "All meals and snacks are vegetarian with no meat, poultry, or fish",
-        "Meal plan is presented in a compact, concise format suitable for quick reference"
+        "Meal plan covers 3 meals and 2-3 snacks across one full day",
+        "Total daily calories fall within 3500-4000 kcal range",
+        "Macronutrient distribution aligns with stated targets (carbs 55-65%, protein 18-22%, fat 18-22%)",
+        "All meals and snacks respect vegetarian and no-nuts restrictions"
       ],
       "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
-      "scenario": "Testing with a professional endurance athlete (marathon runner) who has high caloric needs, specific macronutrient ratios for carb-loading, and dietary restrictions (vegetarian), requiring the meal plan to balance performance nutrition with ethical food choices"
+      "scenario": "Testing with a high-performance endurance athlete (marathon runner) requiring high caloric intake and carbohydrate loading with specific macro targets"
     },
-    "score": 8,
-    "reasoning": "The solution successfully delivers all mandatory requirements with a complete one-day meal plan (3,200 calories), detailed macronutrient breakdown, exact portions, and specific meal timings. All meals are vegetarian-compliant. The carbohydrate emphasis supports endurance training, though at 52.5% it slightly undershoots the 55-65% target range. The presentation is clear and well-organized, though not maximally compact. Minor arithmetic discrepancies between individual meal macros and the stated totals suggest calculation errors, but the overall structure and content meet the core criteria effectively."
+    "score": 3,
+    "reasoning": "The solution provides a well-organized meal plan that respects all dietary restrictions and includes appropriate meal structure. However, it fails two of the three mandatory requirements: it does not include a daily caloric total and does not provide a macronutrient breakdown of the actual meals proposed. While macro targets are listed, the actual breakdown of what the meal plan delivers is absent. The solution also lacks specific meal timing. These omissions constitute violations of explicit mandatory requirements, resulting in an automatic low score despite the otherwise reasonable meal structure."
+  },
+  {
+    "output": "# Nutrition Plan for Powerlifting\n\n## Daily Calorie & Macro Target\n- **Daily Calories**: ~3,000-3,300 kcal (slight surplus for muscle gain)\n- **Protein**: 170-190g (2.0-2.2g per kg bodyweight)\n- **Carbs**: 400-450g (fuel for heavy training)\n- **Fats**: 85-100g (hormone support)\n\n## Priority Foods by Category\n\n### **Protein Sources** (aim for 4-5 servings)\n- Beef, chicken, turkey (excellent for strength athletes)\n- Salmon, cod, eggs (omega-3s + complete amino acids)\n- Greek yogurt, cottage cheese\n- Legumes + grains (beans with rice)\n\n### **Carbohydrates** (time around training)\n- **Pre-workout**: Oats, white rice, pasta (1-2 hours before)\n- **Post-workout**: Rice, potatoes, banana (within 1-2 hours)\n- Whole grains, sweet potatoes (general meals)\n\n### **Healthy Fats**\n- Olive oil, avocado, nuts\n- Fatty fish (salmon, mackerel)\n- Egg yolks\n\n### **Micronutrients** (recovery support)\n- Dark leafy greens (spinach, kale)\n- Berries, oranges\n- Minerals: Brazil nuts, pumpkin seeds\n\n## Sample Daily Structure\n1. **Breakfast**: Eggs + oats + banana\n2. **Pre-workout**: Rice cakes + honey\n3. **Post-workout**: Chicken + white rice\n4. **Main meals**: Beef/fish + potatoes + vegetables\n5. **Snacks**: Greek yogurt, nuts, protein shake\n\n**Key principle**: Consistent protein + adequate carbs + progressive overload = optimal recovery",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "180 cm",
+        "weight": "85 kg",
+        "goal": "Maximize strength and muscle recovery for powerlifting training",
+        "restrictions": "None"
+      },
+      "solution_criteria": [
+        "Meal plan covers exactly 1 day with 4-5 meals",
+        "Includes high protein intake (minimum 1.6g per kg bodyweight) distributed across meals",
+        "Pre- and post-workout meals timed appropriately around training session",
+        "Plan is concise and practical (under 400 tokens)"
+      ],
+      "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+      "scenario": "Testing with a strength/power athlete (weightlifter) emphasizing protein intake and recovery nutrition with meal timing around training sessions"
+    },
+    "score": 3,
+    "reasoning": "The solution violates the mandatory requirement for 'Meals with exact foods, portions, and timing.' While it provides macro targets and general food categories, it lacks a concrete daily meal plan. The 'Sample Daily Structure' lists 5 meal types but provides no portion sizes, caloric values, or specific timing (e.g., '7am breakfast, 11am pre-workout snack'). A user cannot execute this plan without making significant assumptions about quantities and meal timing. The solution reads as nutritional guidance rather than an actionable 1-day meal plan. It meets secondary criteria regarding protein targets and conciseness, but fails the mandatory requirement for specific meals with portions and timing."
+  },
+  {
+    "output": "# Nutrition Plan for Endurance Training (Vegetarian, Dairy-Free, Budget-Friendly)\n\n## Daily Caloric Needs\n- **Estimated: 2,400-2,800 calories/day** (depending on training intensity)\n- **Macros:** 50-55% carbs, 15-20% protein, 25-30% fat\n\n## Budget-Friendly Staples\n\n### Carbs (Energy Foundation)\n- Oats, rice, pasta, bread\n- Potatoes, sweet potatoes\n- Lentils, beans (dried - cheapest option)\n- Seasonal vegetables\n\n### Proteins (Plant-Based)\n- **Dried lentils & beans** (excellent value)\n- Peanut butter\n- Tofu (when on sale)\n- Seeds (sunflower, pumpkin)\n- Nuts (in moderation)\n\n### Healthy Fats\n- Cooking oils (olive, vegetable)\n- Seeds\n- Nuts\n\n## Sample Daily Meal Structure\n\n| Meal | Example |\n|------|---------|\n| **Breakfast** | Oatmeal + banana + peanut butter |\n| **Lunch** | Rice + lentil curry + vegetables |\n| **Snack** | Bread + peanut butter or apple |\n| **Dinner** | Pasta + beans + tomato sauce + greens |\n\n## Key Tips\n\u2713 Buy dried legumes in bulk  \n\u2713 Shop seasonal produce  \n\u2713 Prioritize whole grains  \n\u2713 Plan meals to minimize waste  \n\u2713 Stay hydrated during endurance training\n\nWould you like a specific meal plan or grocery list?",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "175 cm",
+        "weight": "70 kg",
+        "goal": "Endurance training with limited budget",
+        "restrictions": "Vegetarian, no dairy"
+      },
+      "solution_criteria": [
+        "Meal plan covers 3 meals using affordable, locally-available foods in developing regions",
+        "Provides adequate calories and protein to support endurance athletic performance",
+        "Respects vegetarian and dairy-free dietary restrictions",
+        "Compact and concise format suitable for 1-day reference"
+      ],
+      "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+      "scenario": "Testing with a resource-constrained scenario (budget-conscious athlete in developing region) using affordable, locally-available foods while meeting basic athletic nutritional needs"
+    },
+    "score": 3,
+    "reasoning": "The solution fails to meet mandatory requirements. While it demonstrates good nutritional knowledge and respects all constraints, it provides a general framework and staples list rather than a concrete 1-day meal plan. The task explicitly requires 'exact foods, portions, and timing' with 'daily caloric total' and 'macronutrient breakdown' - the solution only offers generic meal examples (e.g., 'Oatmeal + banana + peanut butter') without quantities, timing, or calculated totals. A proper response would specify: Breakfast at 7am: 50g oats + 1 banana + 30g peanut butter (approximately 450 cal, 12g protein, etc.), and similar detail for all meals, culminating in a daily total. The solution reads as educational guidance rather than an executable meal plan."
   }
 ]
