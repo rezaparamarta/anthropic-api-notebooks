@@ -1,0 +1,48 @@
+[
+  {
+    "prompt_inputs": {
+      "height": "180 cm",
+      "weight": "72 kg",
+      "goal": "Marathon training - carbohydrate loading for endurance event tomorrow with 3000+ calorie intake and strategic hydration timing",
+      "restrictions": "None"
+    },
+    "solution_criteria": [
+      "Meal plan totals 3000+ calories with emphasis on carbohydrates (55-65% of total intake)",
+      "Includes 4-5 eating occasions with hydration timing specified around meals and training",
+      "Provides 1 day structure only with breakfast, lunch, dinner, and snacks clearly labeled"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a high-endurance athlete (marathon runner) requiring 3000+ calories with emphasis on carbohydrate loading and hydration timing"
+  },
+  {
+    "prompt_inputs": {
+      "height": "180 cm",
+      "weight": "85 kg",
+      "goal": "Maximize strength and muscle gain with optimized protein intake and pre/post-workout nutrition",
+      "restrictions": "No dairy, vegetarian protein sources only"
+    },
+    "solution_criteria": [
+      "Meal plan covers all 3 meals plus pre/post-workout nutrition within a single day",
+      "Protein-heavy macronutrient distribution (minimum 30% calories from protein) suitable for strength training",
+      "All meals and snacks adhere to vegetarian and dairy-free restrictions",
+      "Includes specific meal timing recommendations around workout window"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a strength-focused athlete (weightlifter) requiring protein-heavy meals with specific macronutrient ratios and meal timing around workout windows"
+  },
+  {
+    "prompt_inputs": {
+      "height": "178 cm",
+      "weight": "72 kg",
+      "goal": "Pre-match energy and recovery for soccer performance",
+      "restrictions": "Vegan (no animal products)"
+    },
+    "solution_criteria": [
+      "Meal plan covers all three meals and includes pre-match timing considerations",
+      "All meals are vegan with no animal products",
+      "Includes nutrient-dense plant-based options providing adequate protein, carbohydrates, and healthy fats for athletic performance"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a sport-specific dietary constraint (vegan soccer player) requiring nutrient-dense plant-based options that meet performance needs while adhering to dietary restrictions"
+  }
+]
